@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Robotics Club</title>
+
+	<!-- GOOGLE FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+
+
+	<style type="text/css">
+		body {
+			background-image: url(https://cdn.pixabay.com/photo/2018/04/11/10/51/robot-3310194_1280.jpg);
+			/*background-color: #FEFEE3;*/
+			font-family: "Story Script", sans-serif;
+
+		}
+		
+		h1,h2 {
+			text-align: center;
+			color: lightblue;
+		}
+
+		p {
+			text-align: center;
+			color: #1B264F;
+		}
+
+		form {
+			background-color: white;
+			width: 42%;
+			padding: 30px;
+			border-radius: 10px;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<form>
+		<h1> OBMC Robtics Club <br> Application Form</h1><br>
+
+		<p>Welcome! Please fill out this form to apply for our OMBC Robotics club.</p>
+
+
+		<label for="Name">Name: </label><br>
+		<input type="text" name="Name"><br><br>
+		<label for="Gma">Gmail: </label><br>
+		<input type="email" name="Gma"><br><br>
+		<label for="Grade level">Grade level:</label><br>
+		<select name="Grade level">
+			<option value="Grade 7">Grade 7</option>
+			<option value="Grade 8">Grade 8</option>
+			<option value="Grade 9">Grade 9</option>
+			<option value="Grade 10">Grade 10</option>
+		</select><br><br>
+		<label for="Gender"> Gender </label><br>
+		<input type="radio" name="Gender" value="Male">
+		<label>Male</label>
+		<input type="radio" name="Gender" value="Female">
+		<label>Female</label><br><br>		
+		<label for="Skills"> What are your skills? </label><br>
+		<input type="checkbox" name="Skills" value="Coding">
+			<label>Coding</label>
+			<input type="checkbox" name="Skiils" value="Design">
+			<label>Design</label>
+			<input type="checkbox" name="Skiils" value="Electronies">
+			<label>Electroies</label><br><br>
+		<label for="feedback"> Why do you want to join?</label> <br>
+			<textarea id="feedback" name="feedback" rows="4" cols="50"placeholder="type here..."> </textarea><br><br>
+		<h2>Some Of Our Activities!</h2><br>
+			<ul>
+				<li>Line Following Robots</li>
+				<li>Obstacle Avoidance Programming</li>
+				<li>Light Following Robots</li>
+			</ul><br>
+		<h2>Helpful Links</h2><br>
+			<ol>
+				<li><a url="https://www.edx.org/learn/robotics">Edx.org</a></li>
+				<li><a url="https://www.coursera.org/courses?query=robotics">Coursera</a></li>
+			</ol><br>
+
+		<div style="text-align: center;">
+  			<input type="submit" value="Submit">
+		</div>
+	</form>
+
+</body>
+</html>
